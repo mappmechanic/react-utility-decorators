@@ -29,6 +29,7 @@ module.exports = {
   devserver: {
     contentBase: "./public",
     historyApiFallback: true,
+    clientLogLevel: "none",
     // enable HMR
     hot: true,
     // embed the webpack-dev-server runtime into the bundle
